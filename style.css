@@ -1,0 +1,95 @@
+.Nav{
+    padding: 10px;
+    background-color: rgb(235, 188, 70);
+    color: black;
+    text-align: right;
+    border-bottom: 2px solid black;
+}
+.Nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.Nav a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.content h1{
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    font-size: 100px;
+}
+
+.box {
+    display: flex; 
+    gap: 5px;
+    align-items: center;  
+}
+
+.box a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#g1, #g2, #g3, #g4, #g5, #g6 {
+    border: 2px solid black; 
+    padding: 5px; 
+    text-align: center;
+    width: 100%; 
+    max-width: 400px; 
+    margin-bottom: 20px; 
+    border-radius: 5px;   
+}
+
+#g1 h2, #g2 h2, #g3 h2, #g4 h2, #g5 h2, #g6 h2 {
+    font-size: 24px;
+    margin: 0; 
+}
+
+.c1{
+    background-color: rgb(185, 185, 185);
+}
+
+.c2{
+    background-color: rgb(228, 228, 133);
+}
+
+.c3{
+    background-color: rgb(255, 143, 143);
+}
+
+.c4{
+    background-color: rgb(171, 255, 171);
+}
+
+.c5{
+    background-color: rgb(255, 150, 255);
+}
+
+.c6{
+    background-color: rgb(199, 199, 255);
+}
+img{
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+#p2{
+    float: left;
+    width: 50%;
+}
+
+#p3{
+    float: right;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 70px;
+}
